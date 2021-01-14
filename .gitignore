@@ -1,0 +1,9 @@
+/bin/
+
+activemq-data/localhost/KahaDB/lock
+
+activemq-data/localhost/KahaDB/db.redo
+
+activemq-data/localhost/KahaDB/db.data
+
+activemq-data/localhost/KahaDB/db-1.log

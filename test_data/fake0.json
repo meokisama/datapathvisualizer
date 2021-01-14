@@ -1,0 +1,109 @@
+{
+	"vertices_values": {
+		"pc": {
+			"id": "pc",
+			"address": "0x10001000"
+		},
+		"add1": {
+			"id": "add1",
+			"value1": 4,
+			"value2": "0x10001000"
+		},
+		"instruction_memory": {
+			"id": "instruction_memory",
+			"[26-31]": "000000",
+			"[21-25]": "00010",
+			"[16-20]": "00001",
+			"[0-15]": "1011011001011011"
+		},
+		"shift1": {
+			"id": "shift1"
+		},
+		"control": {
+			"id": "control",
+			"reg_dst": "00010",
+			"jump": 1,
+			"branch": 0
+		},
+		"mux1": {
+			"id": "mux1"
+		},
+		"sign_extend": {
+			"id": "sign_extend"
+		},
+		"registers": {
+			"id": "registers"
+		},
+		"shift2": {
+			"id": "shift2"
+		},
+		"mux2": {
+			"id": "mux2"
+		},
+		"alu_control": {
+			"id": "alu_control"
+		},
+		"add2": {
+			"id": "add2"
+		},
+		"alu": {
+			"id": "alu"
+		},
+		"mux3": {
+			"id": "mux3"
+		},
+		"mux4": {
+			"id": "mux4"
+		},
+		"and_gate": {
+			"id": "and_gate"
+		},
+		"data_memory": {
+			"id": "data_memory"
+		},
+		"mux5": {
+			"id": "mux5"
+		}
+	},
+	"enabled_edges": {
+		"pc_add1": 1,
+		"pc_im": 1,
+		"add1_add2": 1,
+		"im_shift1": 0,
+		"im_control": 0,
+		"im_mux1_upper": 0,
+		"im_mux1_lower": 0,
+		"im_sign": 0,
+		"im_aluc": 0,
+		"control_mux1": 0,
+		"control_registers": 0,
+		"control_mux4": 0,
+		"control_andgate": 0,
+		"control_mux5": 0,
+		"control_datamemory_left": 0,
+		"control_datamemory_right": 0,
+		"control_mux2" : 0,
+		"control_alu_control" : 0,
+		"alu_control_alu" : 0,
+		"mux1_registers" : 0,
+		"registers_alu" : 0,
+		"registers_mux2" : 0,
+		"registers_data_memory" : 0,
+		"mux3_mux4" : 0,
+		"sign_extend_shift2" : 0,
+		"sign_extend_mux2" : 0,
+		"mux2_alu" : 0,
+		"add1_mux3" : 0,
+		"add1_mux4" : 0,
+		"shift1_mux4" : 0,
+		"shift2_add2" : 0,
+		"add2_mux3" : 0,
+		"alu_and_gate" : 0,
+		"alu_data_memory" : 0,
+		"alu_mux5" : 0,
+		"data_memory_mux5" : 0,
+		"and_gate_mux3" : 0,
+		"mux5_registers" : 0,
+		"mux4_pc" : 0
+	}
+}
